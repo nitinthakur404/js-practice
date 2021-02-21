@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#hiid {
+    display: flex;
+    position: relative;
+    border: 0.5px solid gray;
+    color: red;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
