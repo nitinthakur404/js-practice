@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+    background-color: burlywood;
+    ;
+}
+
+#stopwatch {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 15px 30px;
+
+}
