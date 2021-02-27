@@ -7,12 +7,14 @@ let e = 0
 document.getElementById('button').addEventListener('click', function () {
     let id = setInterval(() => {
 
+
         let d = new Date()
-        d.setMilliseconds(a);
+        d.setMilliseconds(a * 4);
         var n = d.getMilliseconds();
         document.getElementById('mini_show').innerHTML = n
-
-        if (n == 999) {
+        // n = Math.floor(n / 10)
+        console.log(n)
+        if (n == 96) {
             b + 1
             let d = new Date()
             d.setSeconds(b);
@@ -30,7 +32,7 @@ document.getElementById('button').addEventListener('click', function () {
                 d.setMinutes(c);
                 var nminutes = d.getMinutes();
                 console.log(nminutes, 'minutes')
-                document.getElementById('minutes_show').innerHTML = nminutes
+                document.getElementById('minutes_show').innerHTML = nminutes + 1
 
                 c++
             }

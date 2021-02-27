@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#imgid {
+    height: 40rem;
+    width: 50rem;
+    z-index: -1;
+    visibility: hidden;
+}
+
+#new {
+    position: relative;
+    top: -155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#new form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -26rem;
+}
+
+#new form input {
+    color: gray;
+    border: 2px solid transparent;
+    border-bottom: 1.8px solid #7f00ff;
+    height: 31px;
+    width: 313px;
+    background: transparent;
+    outline: none;
+}
+
+#h1text {
+    position: relative;
+    top: -23rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    animation: example 5s 1;
+
+}
+
+
+#hiid3 {
+    position: relative;
+    left: -9rem;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
