@@ -1,0 +1,41 @@
+* {
+    margin: 0PX;
+    padding: 0PX;
+}
+
+#test {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+
+}
+
+#input {
+    height: 2rem;
+    width: 10rem;
+    color: red;
+    outline: none;
+    border: 1.5px solid transparent;
+    border-bottom: 1.5px solid gray;
+}
+
+#service {
+    height: 2rem;
+    width: 10rem;
+    color: red;
+    outline: none;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+
+}
+
+#no_people {
+    height: 2rem;
+    width: 10rem;
+    color: red;
+    outline: none;
+    border: 1.5px solid transparent;
+    border-bottom: 1.5px solid gray;
+}
