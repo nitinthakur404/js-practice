@@ -10,23 +10,25 @@
 </head>
 
 <body>
-    <input type="number" id="moneyInput">
-    <select name="money convert" id="converter">
-        <option value="0">Money converter</option>
-        <option value="73">USA Dollar</option> Doller</option>
-        <option value="11.39">chinaese yuan</option>
-        <option value="0.69">japaness yuan</option>
-        <option value="88.29">Euro</option>
-        <option value="20.03">UAE</option>
-        <option value="88.18">Cayman Island Dollar</option>
-        <option value="13.14">Brazillan Real</option>
-        <option value="58.16">canadan Dollar</option>
-        <option value="243.00">Kuwati</option>
-    </select>
-    <button typ="button" id="btn">click now</button>
-    <div id="textShow">
-        <h1>you can convert Indian Rupees into top 10 Country Currency</h1>
-        <h1 id="textShowid"></h1>
+    <div id="container">
+        <input type="number" id="moneyInput" required placeholder="Amount">
+        <select name="money convert" id="converter">
+            <option value="0">Money converter</option>
+            <option value="73">USA Dollar</option> Doller</option>
+            <option value="11.39">chinaese yuan</option>
+            <option value="0.69">japaness yuan</option>
+            <option value="88.29">Euro</option>
+            <option value="20.03">UAE</option>
+            <option value="88.18">Cayman Island Dollar</option>
+            <option value="13.14">Brazillan Real</option>
+            <option value="58.16">canadan Dollar</option>
+            <option value="243.00">Kuwati</option>
+        </select>
+        <button typ="button" id="btn">click now</button>
+        <div id="showtext">
+            <h1 id="textShow">you can convert Indian Rupees into top 10 Country Currency</h1>
+            <h1 id="textShowid"></h1>
+        </div>
     </div>
 </body>
 <script src="index.js"></script>

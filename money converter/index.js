@@ -4,7 +4,7 @@ let btn = document.getElementById('btn')
 function moneyConverter() {
     let rupees = document.getElementById('moneyInput').value
     let converter = document.getElementById("converter").value
-    if (converter == "0") {
+    if (converter == "0" || rupees == "") {
         alert("please provide some value")
     }
     else {
@@ -15,6 +15,12 @@ function moneyConverter() {
 }
 btn.addEventListener('click', function () {
     let test = moneyConverter()
-    let converter = document.getElementById("converter").value
-    let text=``
+    if (test == undefined) {
+        alert("sorry please fill Amount input box")
+    }
+    else {
+
+        console.log(test)
+        document.getElementById('textShowid').innerHTML = test
+    }
 })

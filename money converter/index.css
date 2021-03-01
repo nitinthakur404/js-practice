@@ -1,3 +1,28 @@
-body {
-    background-color: rebeccapurple;
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+#container {
+    background: #ffebcd;
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    width: 37rem;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 19rem;
+    top: 12rem;
+}
+
+#textShowid,
+#textShow {
+    color: red;
+    font-size: 20px;
+}
+
+#textShow#textShowid {
+    color: blueviolet;
 }
