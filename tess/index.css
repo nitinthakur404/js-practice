@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nitin {
+    color: red;
+    font-size: 10px;
+}
+
+#nitin {
+    color: green;
+}
