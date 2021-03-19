@@ -73,13 +73,15 @@
     position: relative;
     justify-content: center;
     text-transform: capitalize;
-    top: -31px;
+    top: 11px;
 }
 
 #maxTemp,
 #minTemp,
 #temp,
-#typeWether {
+#typeWether,
+#latitude,
+#longtude {
     font-size: 15px;
     left: 50px;
     display: flex;
@@ -88,21 +90,30 @@
 
 }
 
-#typeWether {
-    top: -116px;
+#latitude {
+    top: -8px;
 }
+
+#longtude {
+    top: -33px;
+}
+
+#temp {
+    top: -58px;
+}
+
+
 
 
 #maxTemp {
-    top: -71px
+    top: -86px
 }
 
 #minTemp {
-    top: -93px
+    top: -110px
 }
 
 
-
-#temp {
-    top: -49px;
+#typeWether {
+    top: -138px;
 }

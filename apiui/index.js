@@ -26,6 +26,8 @@ btn.addEventListener('click', function () {
             let temp_min = Math.floor(value.main.temp_min - 274.15)
             let temp = Math.floor(value.main.temp - 273.15)
             let typeWether = value.weather[0].main
+            let latitude = value.coord.lat
+            let longtude = value.coord.lon
 
             completepage = `<div id='container-img'></div>
             <div id="container-group">
@@ -34,6 +36,8 @@ btn.addEventListener('click', function () {
                 </div>
                 <div id="container-2">
                     <p id="WeatherDetails">Weather details</p>
+                    <p id="latitude"> latitude:${latitude} </p>
+                    <p id="longtude"> longtude:${longtude} </p>
                     <p id="temp"> Temp:${temp} </p>
                     <p id="maxTemp"> Max-temp: ${temp_max} celicus </p>
                     <p id="minTemp"> Min-temp:${temp_min} celicus</p>
@@ -41,8 +45,7 @@ btn.addEventListener('click', function () {
                 </div>
      
             </div>`
-            let time = new Date(Date.now() + (new Date().getTimezoneOffset() * 60000)).getTime()
-            console.log(time)
+
             document.getElementById('container').innerHTML = completepage
 
         }
