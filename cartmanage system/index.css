@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#test {
+    color: red;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#card {
+    height: 150px;
+    width: 230px;
+    border: 0.1px solid red;
+}
+
+#card2 {
+    height: 50px;
+    width: 500px;
+    border: 0.1px solid red;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 2px 0.1px;
+
+}
+
+#cartdetails {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 89px;
+}
+
+#cardItemPrice {}
+
+
+
+#cardItemName {
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    left: 0;
+    justify-content: left;
+    align-items: center;
+    width: 245px;
+
+}
+
+#cardItemPrice {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0%;
+    width: 70px;
+}
+
+#removebtn {
+    color: white;
+    width: 72px;
+    background: #265a88;
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    left: 18%;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 27px;
+    border: none;
+
+}
