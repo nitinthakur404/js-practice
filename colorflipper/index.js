@@ -10,9 +10,7 @@ function backgroundocolor() {
     let random = randomeno()
     let bgcolor = color[random].background
     let textcolor = color[random].text
-
-
-
+    
     document.getElementById('backcolor').style.backgroundColor = bgcolor
     document.getElementById('container').style.color = textcolor
     show = ` <h1 id="fonbgtcolor" id="same">Background color:${bgcolor}</h1>
