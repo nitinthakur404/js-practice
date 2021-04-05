@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#navbar {
+    height: 50px;
+    width: 98%;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 1%;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#firstphase {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: left;
+    align-items: center;
+}
+
+#addict,
+#coding {
+    font-size: 25px;
+}
+
+#addict {
+    padding-left: 5px;
+    color: lightblue;
+}
+
+#secondphase {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 26%;
+    font-size: 17px;
+}
+
+#secondphase ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#secondphase li {
+    padding-left: 15px;
+}
+
+#thiredphase {
+    border: 2px solid transparent;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 52%;
+    align-items: center;
+    font-size: 25px;
+    color: lightseagreen;
+}
+
+.icon {
+    font-size: 10px;
+}
+
+#thiredphase ul li {
+    padding: 2px 10px;
+
+}
+
+@media (max-width:1130px) {
+    #navbar {
+        width: 90%;
+
+    }
+
+    #secondphase {
+        left: 15%;
+    }
+
+    #thiredphase {
+        left: 25%;
+    }
+}
+
+@media (max-width:912px) {
+    #thiredphase {
+        left: 10%;
+    }
+
+    #navbar {
+        width: 90%;
+
+    }
+
+    #secondphase {
+        left: 5%;
+    }
+
+}
+
+#humbergerMenu {
+    width: 98%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 1%;
+}
+
+
+
+#firstphasehum {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 20px;
+    justify-content: left;
+
+}
+
+#secondphasehum {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 65%;
+    justify-content: right;
+    align-items: right;
+}
+
+.extended {
+    height: 150px;
+
+}
+
+
+
+
+#thiredphasehum {
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 20px;
+    left: -314%;
+    color: lightseagreen;
+    top: 30px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
