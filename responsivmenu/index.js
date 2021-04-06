@@ -18,9 +18,8 @@ function mediaQueryHandler(e) {
 }
 
 btn.addEventListener('click', function () {
-    console.log(btn.classList[1] == "extended")
     if (btn.classList[1] == "extended") {
-        thiredphasehum.style.display = ''
+        thiredphasehum.style.display = 'block'
     } else {
         thiredphasehum.style.display = 'none'
     }

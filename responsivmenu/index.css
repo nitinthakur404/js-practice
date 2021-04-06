@@ -10,13 +10,13 @@ ul li {
 
 #navbar {
     height: 50px;
-    width: 98%;
+    width: 99.9%;
     align-items: center;
     background-color: white;
     display: flex;
     position: relative;
     top: 5px;
-    left: 1%;
+
 }
 
 body {
@@ -145,22 +145,35 @@ body {
 
 .extended {
     height: 150px;
+    transition-property: height;
+    transition-duration: 2s;
+}
 
+.extended:active {
+    height: 150px;
 }
 
 
 
-
 #thiredphasehum {
+
+    height: 0px;
     border: 2px solid transparent;
-    display: flex;
+    display: none;
     flex-direction: column;
     position: relative;
     font-size: 20px;
     left: -314%;
     color: lightseagreen;
     top: 30px;
+    transition-property:diplay;
+    transition-duration: 2s;
 }
+
+#thiredphasehum:focus {
+    display: 'block';
+}
+
 
 .container {
     display: inline-block;
