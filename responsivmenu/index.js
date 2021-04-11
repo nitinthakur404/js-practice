@@ -3,13 +3,17 @@ let navbar = document.getElementById('navbar')
 let humbergerMenu = document.getElementById('humbergerMenu')
 let btn = document.getElementById('humbergerMenu')
 let thiredphasehum = document.getElementById('thiredphasehum')
+
+
 thiredphasehum.style.display = 'none'
 
 function mediaQueryHandler(e) {
+    let extended = document.getElementsByClassName('extended')
     if (e.matches) {
+
         navbar.style.display = 'none'
         humbergerMenu.style.display = ''
-        console.log("query match")
+
     }
     else {
         navbar.style.display = ''

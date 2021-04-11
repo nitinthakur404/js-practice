@@ -123,8 +123,6 @@ body {
     left: 1%;
 }
 
-
-
 #firstphasehum {
     display: flex;
     flex-direction: row;
@@ -149,12 +147,6 @@ body {
     transition-duration: 2s;
 }
 
-.extended:active {
-    height: 150px;
-}
-
-
-
 #thiredphasehum {
 
     height: 0px;
@@ -166,7 +158,7 @@ body {
     left: -314%;
     color: lightseagreen;
     top: 30px;
-    transition-property:diplay;
+    transition-property: diplay;
     transition-duration: 2s;
 }
 
