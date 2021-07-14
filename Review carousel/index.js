@@ -10,8 +10,7 @@ btn.forEach(function (e) {
 
         if (counter.contains('left')) {
             if(count < dataOfEmploy.length-1){
-            console.log('left side')
-            console.log(count)
+
             count++
             }
             else{
